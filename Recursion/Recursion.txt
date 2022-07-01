@@ -1,0 +1,14 @@
+Recursion -  A function that calls itself.
+
+Example of Recursion:
+    - JSON.parse / JSON.stringify
+    - document.getElementById and DOM traversal
+    - Object traversal
+
+The call Stack
+  - It's a stack data structure
+  - Anytime a function is invoked it is placed (pushed) on the top of the call stack
+  - When Javascript sees the return keyword or when the function ends, the compiler will remove (pop)
+
+Base Case
+  - The condition when the recursion ends. 
