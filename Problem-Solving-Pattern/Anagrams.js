@@ -11,7 +11,7 @@ function validAnagram(first, second) {
         return false
     }
 
-    // create an object to hold string
+    // create an object to hold our string
     const lookup = {};
 
     // loop over the first string and count number of letters

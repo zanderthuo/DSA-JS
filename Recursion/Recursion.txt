@@ -11,4 +11,23 @@ The call Stack
   - When Javascript sees the return keyword or when the function ends, the compiler will remove (pop)
 
 Base Case
-  - The condition when the recursion ends. 
+  - The condition when the recursion ends.
+
+Helper Method recursion
+
+    function outer(input) {
+      var outerScopedVariable = []
+      function helper(helperInput){
+        // modify the outerScopedVariable
+        helper(helperInput--)
+      }
+      helper(input)
+
+      return outerScopedVariable;
+    }
+
+NB:
+  - For arrays, use methods like slice, the spread operator and concat that make copies of arrays so you
+    do not mutate them.
+  - Strings are immutable so you will need to use methods like slice, substr, or substring to make copies of strings.
+  - Objects use Object.assign, or the spread operator
