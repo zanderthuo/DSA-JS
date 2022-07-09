@@ -1,0 +1,13 @@
+#Sorting#
+  - Sorting is the process of rearranging the items in a collection(e.g an array)
+    so that the items are in some kind of order
+
+  ## sort()
+    - The sort() method sorts the elements of an array in place and returns the array.
+      The sort is not necessarily stable. The default sort order is according ti string Unicode points
+    - The built-in sort method accepts an optional comparator function
+    - You can use this comparator function to tell Javascript how you want it to sort.
+    - The comparator looks at pairs of elements(a and b), determines their sort order based on the return value
+
+  ## Bubble Sort
+    - A sorting algorithm where the largest values bubble up to the top!
