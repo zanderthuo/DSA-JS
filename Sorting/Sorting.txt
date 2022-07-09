@@ -11,3 +11,12 @@
 
   ## Bubble Sort
     - A sorting algorithm where the largest values bubble up to the top!
+    - Time complexity = On*2
+
+  ## Selection Sort
+  - Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into position
+  - Time complexity = On*2
+
+  ## Insertion Sort
+  - Builds up the sort by gradually creating a larger left half which is always sorted
+  - Time Complexity = On*2
