@@ -4,7 +4,7 @@ const searchBinary = (arr, val) => {
     let start = 0;
     let end = arr.length - 1;
     let middle = Math.floor((start + end) / 2);
-    // While the leftpointer comes before the right pointer:/
+    // While the left pointer comes before the right pointer:/
     while (arr[middle] !== val && start <= end) {
         //if you find the value you want, return the index
         if (val < arr[middle]) {

@@ -6,7 +6,7 @@
          // loop over the shorter string
          for (let j = 0; j < short.length; j++) {
              console.log(short[i], long[i + j]);
-             // if thecharacters don't match, break out of the inner loop
+             // if the characters don't match, break out of the inner loop
              if (short[j] !== long[i + j]) {
                  console.log("Break!!!")
                  break;
