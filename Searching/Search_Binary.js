@@ -1,8 +1,8 @@
 // the function accepts a sorted array and a value
 const searchBinary = (arr, val) => {
     // create a left pointer at the start of the array, and a right pointer at the end of the array
-    let start = 0;
-    let end = arr.length - 1;
+    let start = 0; // what are we looking for?
+    let end = arr.length - 1; // last value 
     let middle = Math.floor((start + end) / 2);
     // While the left pointer comes before the right pointer:/
     while (arr[middle] !== val && start <= end) {

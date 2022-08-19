@@ -4,3 +4,4 @@ Binary search - A much faster form of search
               - You can eliminate half of the remaining elements at a  time
               - It works only on sorted arrays.
               - Divide and conquer
+              - It has 0(LogN)
